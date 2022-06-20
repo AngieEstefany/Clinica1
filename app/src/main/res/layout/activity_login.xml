@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".UI.Credentials.LoginActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="-90dp"
+        app:srcCompat="@drawable/dental" />
+
+    <!-- APLICAR MATERIAL DESING A LOS EDITTEXT -->
+
+    <EditText
+        android:id="@+id/editTextUsuario"
+        android:layout_width="225dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="5dp"
+        android:textColor="@color/lead"
+        android:layout_marginTop="48dp"
+        android:textColorHint="@color/lead"
+        android:backgroundTint="@color/turque"
+        android:hint="Usuario"
+        android:textSize="15dp" />
+
+
+    <EditText
+        android:id="@+id/editTextContraseña"
+        android:layout_width="228dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:textColor="@color/lead"
+        android:textColorHint="@color/lead"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/turque"
+        android:hint="Contraseña"
+        android:minHeight="48dp"
+        android:textSize="15dp"  />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="71dp"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/CheckRecuerda"
+            android:layout_width="140dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="23dp"
+            android:buttonTint="@color/turque"
+            android:text="Recuerdame"
+            android:textColor="@color/lead"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/TextOlvidasteContra"
+            android:layout_width="186dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="24dp"
+            android:gravity="center"
+            android:textColor="@color/lead"
+            android:text="¿Olvidaste tu contraseña?"
+            android:textSize="15dp"
+            android:typeface="sans" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="74dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnButtonIngresar"
+            android:layout_width="245dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:backgroundTint="@color/turque"
+            android:text="Ingresar" />
+
+        <ProgressBar
+            android:id="@+id/progress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="17dp"
+            android:visibility="gone"
+            >
+        </ProgressBar>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            app:srcCompat="@drawable/goo" />
+        <TextView
+            android:id="@+id/TextIniciarGoogle"
+            android:layout_width="186dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Iniciar Sesion con google"
+            android:textSize="15dp"
+            android:textColor="@color/lead"
+            android:typeface="sans" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txt_register"
+        android:layout_width="186dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:textColor="@color/lead"
+        android:text="¿No tienes cuenta?"
+        android:textSize="15dp"
+        android:typeface="sans" />
+
+
+</LinearLayout>

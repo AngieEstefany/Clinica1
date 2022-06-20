@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "86064806042",
+    "project_id": "odontologia-1bc8d",
+    "storage_bucket": "odontologia-1bc8d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:86064806042:android:bf0b0d847bd9a2e92f4723",
+        "android_client_info": {
+          "package_name": "com.aukde.clinica"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "86064806042-hd8oke7jv8l8ql53odmsc89irlqt33qn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.aukde.clinica",
+            "certificate_hash": "6bf32ca28e6f43969c9d944ea8fc5c6ce4b70b21"
+          }
+        },
+        {
+          "client_id": "86064806042-rkget0684rfii8rkjbv5hbjoctr96tfc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCUI6c8HEjsLTSSdzFwuefKZzDKWUdqANI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "86064806042-rkget0684rfii8rkjbv5hbjoctr96tfc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
